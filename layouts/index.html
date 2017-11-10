@@ -1,7 +1,4 @@
-{{ partial "header" . }}
-{{ partial "custom-body" . }}
-{{ partial "main-menu" . }}
-{{ partial "social-menu" . }}
+{{ partial "combine-header-menu" . }}
 
 <main>
     <div class="intro">
@@ -9,4 +6,5 @@
         <h3>{{ markdownify .Site.Params.Description }}</h3>
     </div>
 </main>
+
 {{ partial "footer" . }}
