@@ -1,0 +1,18 @@
+name = "Writer"
+license = "MIT"
+licenselink = "https://github.com/shazic/writer/blob/master/LICENSE.md"
+description = "A distraction free theme for writers"
+homepage = "https://github.com/shazic/writer/"
+tags = [authors, minimal]
+features = [blog]
+min_version = "0.30.2"
+
+[author]
+  name = "shazic"
+  homepage = "https://shashank.wiki"
+
+# If porting an existing theme
+[original]
+  name = ""
+  homepage = ""
+  repo = ""

@@ -1,0 +1,19 @@
+{{ partial "header" . }}
+{{ partial "custom-body" . }}
+{{ partial "main-menu" . }}
+{{ partial "social-menu" . }}
+
+<main>
+    {{ partial "set-date" .  }}
+    <h5>{{ $.Scratch.Get "dated" }}</h5>
+
+    <div class="text-justify">{{ .Content }}</div>
+
+    {{ if and .Site.DisqusShortname (not .Params.disableComments) }}
+        <h4 class="page-header">Comments</h4>
+        {{ template "_internal/disqus.html" . }}
+    {{ end }}
+
+</main>
+
+{{ partial "footer.html" . }}

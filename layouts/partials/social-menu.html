@@ -1,0 +1,6 @@
+{{ if .Site.Menus.social }}
+    {{ range sort .Site.Menus.social }}
+        <a class="social-icon" href="{{.URL}}"><i class="fa fa-{{ .Name }}"></i></a>
+        
+    {{ end }}
+{{ end }}
