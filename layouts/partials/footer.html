@@ -1,6 +1,7 @@
         </br>
         <footer>
             <p class="copyright text-muted">{{ .Site.Params.copyright | default "&copy; All rights reserved. Powered by [Hugo](https://gohugo.io) and [Writer](https://github.com/shazic/writer)" | markdownify }}</p>
+            {{ partial "social-menu" . }}
         </footer>
     </body>
 </html>    
