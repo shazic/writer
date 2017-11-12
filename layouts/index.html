@@ -1,10 +1,12 @@
 {{ partial "combine-header-menu" . }}
 
 <main>
-    <div class="intro">
-        <h1>{{ .Site.Title }}</h1>
-        <h3>{{ markdownify .Site.Params.Description }}</h3>
-    </div>
+    <center>
+        <div class="intro">
+            <h1>{{ .Site.Title }}</h1>
+            <h3>{{ markdownify .Site.Params.Description }}</h3>
+        </div>
+    </center>
 </main>
 
 {{ partial "footer" . }}

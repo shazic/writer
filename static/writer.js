@@ -1,6 +1,8 @@
-<!-- javascript -->
+// javascript
 
-<!-- e-mail obfuscator --
+/************************************************************************************
+ e-mail obfuscator 
+************************************************************************************/
 <script type="text/javascript" language="javascript">
     <!--
     // Email obfuscator script 2.1 by Tim Williams, University of Arizona
@@ -25,4 +27,3 @@
     }
     //- ->
     </script><noscript>Sorry, you need Javascript on to email me.</noscript>
--->    
