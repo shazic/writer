@@ -1,7 +1,7 @@
 {{ partial "combine-header-menu" . }}
 
 <main>
-    <h2>{{ .Title }}</h2>
+    <h2 class="list-title">{{ .Title }}</h2>
     {{ range (.Paginator 5).Pages }}
         {{ partial "list-items" . }}
     {{ end }}
