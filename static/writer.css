@@ -44,8 +44,10 @@ h1, h2, h3 {
 
 .main-menu {
     text-decoration: none; 
-    background: #5cafca;
+    background: #4885ed;
     padding: 10px;
+    border-radius:5px 5px 5px 5px;
+    box-shadow: 3px 3px 5px #aaaaaa;
 }
 
 .main-menu-item a {
@@ -60,35 +62,55 @@ h1, h2, h3 {
 
 a.main-menu-item:hover {
     background: #aedbe9;
+    border-radius:3px;
 }
 
 a.main-menu-item.active {
     background: #fff;
-    color: #5cafca;
+    border-radius:3px;
+    color: #4885ed;
+}
+
+main{
+    /*margin-bottom: 100px;*/
 }
 
 .item {
     text-align: center;
-    padding: 10px;
+    padding: 15px;
 }
 
-main{
-    margin-bottom: 100px;
+.item-title a {
+    text-decoration: none;
+}
+
+.item-title {
+    color: #4885ed;
+    font-size: 1.4em;
+}
+
+.item-date {
+    font-size: 0.8em;
 }
 
 #footer {
     width:100%;
     padding: 5px;
-    background: #5cafca;
-    color: #ffffff;
+    /*background: #4885ed;*/
+    border-radius: 15px;
+    color: #aaaaaa;
     text-align: center;
 }
 
-.social-icon a {
+a.social-icon {
     text-decoration: none; 
 }
 
 .social-icon {
-    color: #fff;
-    padding: 10px;
+    color: #aaa;
+    padding: 15px;
+}
+
+.social-icon:hover {
+    color: #4885ed;
 }

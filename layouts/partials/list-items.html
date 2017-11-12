@@ -7,8 +7,8 @@
         {{ $.Scratch.Set "subtitle" . }}
     {{ end }}
     
-    <div class="item-title">
-        <a href="{{ .Scratch.Get "link" }}">{{ .Title }}</a>
+    <div class="item-title-div">
+        <a class="item-title" href="{{ .Scratch.Get "link" }}">{{ .Title }}</a>
     </div>
     <div class="item-date">{{ $.Scratch.Get "dated" }}</div>
     {{if .Description}}
