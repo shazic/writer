@@ -1,3 +1,4 @@
+<div class= "bi-columnar col-6">
 <div class="item">
     {{ $.Scratch.Set "link" .RelPermalink }}
     
@@ -6,13 +7,15 @@
     {{ with .Description }}
         {{ $.Scratch.Set "subtitle" . }}
     {{ end }}
-    
     <div class="item-title-div">
-        <a class="item-title" href="{{ .Scratch.Get "link" }}">{{ .Title }}</a>
+        <a class="item-title" href="{{ .Scratch.Get "link" }}">
+	{{ .Title }}
+	</a>
     </div>
     <div class="item-date">{{ $.Scratch.Get "dated" }}</div>
     {{if .Description}}
     <div class="item-description">{{ $.Scratch.Get "subtitle" }}</div>
     {{ end }}
+</div>
 </div>
     

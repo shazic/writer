@@ -32,6 +32,16 @@ Part 1: Responsive
     .col-12 {width: 100%;}
 }
 
+.bi-columnar {
+	-webkit-columns: auto 2; /* Chrome, Safari, Opera */
+    	-moz-columns: auto 2; /* Firefox */
+	columns: auto 2;
+    content: "";
+    float: left;
+    display: table;
+    height: 150px;
+}
+
 /*
 Part 2: Theme colors
 */
@@ -72,8 +82,9 @@ a.main-menu-item.active {
     color: #4885ed;
 }
 
-main{
+main:after{
     /*margin-bottom: 100px;*/
+clear: both;
 }
 
 .writer-landing {
@@ -87,6 +98,7 @@ main{
     border: 1px solid #eee;
     border-radius: 5px;
     box-shadow: 2px 2px 2px #ddd;
+height: 100%;
 }
 
 .item-title a {
@@ -105,7 +117,7 @@ main{
 #footer {
     margin: 30px;
     padding: 5px;
-    /*background: #4885ed;*/
+    /*background: #4885ed;
     border-top: 2px solid #bbb;
     border-radius: 15px;
     /*box-shadow: -3px -3px 5px #ddd;*/
