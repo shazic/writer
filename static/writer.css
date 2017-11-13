@@ -153,7 +153,8 @@ main:after{
 }
 
 .content-text {
-    padding: 2em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
 }
 
 .content-text h2 {
@@ -165,7 +166,8 @@ main:after{
 }
 
 .comments-section{
-    padding: 0.5em;
+    padding-left: 0.5em;
+    padding-right: 1.5em;
 }
 .footer {
     position: absolute;
