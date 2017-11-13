@@ -36,10 +36,10 @@ Part 1: Responsive
 	-webkit-columns: auto 2; /* Chrome, Safari, Opera */
     	-moz-columns: auto 2; /* Firefox */
 	columns: auto 2;
-    content: "";
-    float: left;
-    display: table;
-    height: 150px;
+     content: "";
+     float: left;
+     display: table;
+     height: 150px;
 }
 
 /*
@@ -115,12 +115,12 @@ height: 100%;
 }
 
 #footer {
-    margin: 30px;
+    margin: 10px;
     padding: 5px;
-    /*background: #4885ed;
+    /*background: #4885ed;*/
     border-top: 2px solid #bbb;
     border-radius: 15px;
-    /*box-shadow: -3px -3px 5px #ddd;*/
+    box-shadow: -3px -3px 5px #ddd;
     color: #aaaaaa;
     text-align: center;
 }
