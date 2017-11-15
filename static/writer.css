@@ -50,6 +50,7 @@ Part 2: Theme colors
 html {
     height: 100%;
     box-sizing: border-box;
+    background: #fafafa;
 }
 
 *,
@@ -86,7 +87,7 @@ h1, h2, h3 {
     background: #4885ed;
     padding: 10px;
     border-radius:0px 0px 10px 10px;
-    box-shadow: 3px 3px 5px #aaaaaa;
+    box-shadow: 3px 3px 5px #aaa;
 }
 
 .main-menu-item a {
@@ -95,16 +96,16 @@ h1, h2, h3 {
 
 .main-menu-item {
     margin: 5px; 
-    color: #ffffff;
+    color: #fafafa;
     padding: 5px;
 }
 
 a.main-menu-item:hover {
-    border-bottom:2px solid #fff;
+    border-bottom:2px solid #fafafa;
 }
 
 a.main-menu-item.active {
-    background: #fff;
+    background: #fafafa;
     border-radius:3px;
     color: #4885ed;
 }
@@ -118,12 +119,16 @@ main:after{
     padding: 10em;
 }
 
+.writer-landing-title, .writer-landing-subtitle {
+    text-align: center;
+}
+
 .item {
     margin: 10px;
     text-align: center;
-    border: 1px solid #eee;
+    border: 1px solid #bbb;
     border-radius: 10px;
-    box-shadow: 2px 2px 2px #ddd;
+    box-shadow: 2px 2px 2px #ccc;
     height: 100%;
 }
 
@@ -131,7 +136,7 @@ main:after{
     width: 100%;
     padding: 10px;
     border-radius: 10px 10px 0 0;
-    background: #eee;
+    background: #dedede;
 }
 
 .item-title a {
@@ -198,17 +203,27 @@ a.social-icon, a.pages-icon {
 
 .pages-icon {
     padding: 1em;
+    margin: 0.5em;
+    margin-bottom: 0;
     color: #4885ed;
-    width:50%;
+    width:25%;
+    border: 1px solid #4885ed;
+    border-radius: 10px;
+    text-align: center;
 }
 
+a.pages-icon:hover {
+    color: #fff;
+    background: #4885ed;
+    width:25%;
+    border: 1px solid #4885ed;
+}
 .pages-icon.left-icon {
     float: left;
 }
 
 .pages-icon.right-icon {
     float: right;
-    text-align: right;
 }
 
 .dummy {
